@@ -14,7 +14,6 @@ with st.sidebar:
     - Dataset - https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
     - My Github Link - https://github.com/sayanroy07
     ''')
-    add_vertical_space(3)
     st.write("Developed by Sayan Roy")
 
 def prediction(age, ht1, hd1, bmi, hb, bgl, g_m1, g_t1, s_p1, s_c1):
