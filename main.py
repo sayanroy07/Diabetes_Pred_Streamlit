@@ -77,7 +77,7 @@ def reset():
 
 reset = st.button('Reset', on_click=reset, type="primary")
 result = 0
-model = pickle.load(open(r"C:\Users\User\PycharmProjects\pythonProject5\model.pkl","rb"))
+model = pickle.load(open("model.pkl","rb"))
 if pred:
     result = prediction(age, ht1, hd1, bmi, hb, bgl, g_m1, g_t1, s_p1, s_c1)
 
