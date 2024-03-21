@@ -26,8 +26,8 @@ st.write("Please enter below details to check if you have Diabetes?")
 
 
 age = st.number_input("Age", key='age')
-bmi = st.number_input("Body Mass Index",key='bmi')
-hb = st.number_input("HBA1C level",key='hb')
+bmi = st.number_input("Body Mass Index {https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm}",key='bmi')
+hb = st.number_input("HBA1C level {https://www.ncbi.nlm.nih.gov/books/NBK549816/#:~:text=Diagnostic%20Tests&text=For%20an%20HbA1c%20test%20to,HbA1c%20of%206.5%25%20or%20higher.}",key='hb')
 bgl = st.number_input("Blood Glucose level",key='bgl')
 st.write("Please tick wherever applicable")
 g_m = st.checkbox("Gender = Male",key='g_m')
